@@ -9,6 +9,6 @@ button.addEventListener('click', function() {
 });
 
 closeButton.addEventListener('click', function() {
-  modal.style.display = "none";
-  modalOverlay.style.display = "none";
+  modal.style.display = 'none';
+  modalOverlay.style.display = 'none';
 });
