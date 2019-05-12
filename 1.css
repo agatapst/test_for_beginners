@@ -1,3 +1,42 @@
 body {
     margin: 0 !important;
 }
+
+.header, .footer {
+    height: 100px;
+    width: 100%;
+    background: #1A1C22;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    min-height: 400px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background: #6C757D;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+.content__element {
+    flex: 100%;
+    margin-bottom: 15px;
+    background: #343a40;
+}
+
+.content__element:last-child {
+    margin-bottom: 0;
+}
